@@ -17,4 +17,14 @@ function SpicyFoodList() {
     const newFoodArray = foods.filter((food) => food.id !== food.id);
     setFoods(newFoodArray);
   }
+  return (
+    <div>
+      <button onClick={handleAddFood}>Add New Food</button>
+      <ul>{foodList}</ul>
+      <button onClick={handleClick}>remove New Food</button>
+      <ul>{foodList}</ul>
+    </div>
+  );
+}
+
     export default SpicyFoodList;
