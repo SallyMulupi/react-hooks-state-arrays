@@ -5,4 +5,8 @@ function SpicyFoodList() {
     const [foods, setFoods] = useState(spicyFoods);
 
     function handleAddFood() {
-        export default SpicyFoodList;
+        const newFood = getNewRandomSpicyFood();
+        console.log(newFood);
+    }
+
+    export default SpicyFoodList;
