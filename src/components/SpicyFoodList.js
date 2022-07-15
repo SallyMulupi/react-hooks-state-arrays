@@ -13,4 +13,5 @@ function SpicyFoodList() {
       {food.name} | Heat: {food.heatLevel} | Cuisine: {food.cuisine}
     </li>
   ));
+  function handleClick(id){
     export default SpicyFoodList;
