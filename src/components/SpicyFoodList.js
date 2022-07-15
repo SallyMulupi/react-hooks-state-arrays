@@ -4,4 +4,5 @@ import { spicyFoods, getNewRandomSpicyFood } from "../data";
 function SpicyFoodList() {
     const [foods, setFoods] = useState(spicyFoods);
 
-    export default SpicyFoodList;
+    function handleAddFood() {
+        export default SpicyFoodList;
